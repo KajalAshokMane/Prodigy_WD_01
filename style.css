@@ -1,0 +1,197 @@
+
+.banner-area h2 {
+	font-size: 65px;
+	margin: 0;
+	color: #262626;
+}
+.banner-area h4{
+animation: animate 2s 1;
+color:black;
+text-align: center;}
+.banner-area {
+	margin-top: 0;
+	width: 100%;
+	height: 70vh;
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+}
+h2 {
+	animation: animate 2s 1;
+}
+.btn {
+	text-decoration: none;
+	padding: 10px 50px;
+	color: #262626;
+	background: #f7bc25;
+	transition: 0.6s ease;
+	animation: animate 8s 1;
+	
+}
+.btn:hover {
+	background-color: #262626;
+	color: #fff;
+}
+@keyframes animate {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+
+
+
+
+
+
+
+
+  
+  
+  .navi {
+	overflow: hidden;
+	background-color: #adada4;
+	color: rgb(226, 226, 185) ;
+	font-size:60px ;
+	padding: 15px;
+  }
+  .navi a{
+	
+	
+	font-size: 30px;
+	text-decoration: none;
+	padding: 10px;
+
+  }
+  
+  .navi a.split{
+	float: right;
+	color:rgb(27, 24, 24)
+	
+  }
+.navi a:hover{
+	color: rgb(234, 35, 147);
+}
+
+.social {
+	position:relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	height:150px;
+	
+}
+.social a{
+	font-size: 0.9cm;
+	margin: 10px;
+	
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+.social a:hover{
+	background-color: white;
+}
+.design{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+.social p{
+	align-items: center;
+	color: white;
+	
+}
+
+
+
+
+
+
+.section{
+    padding: 100px 8%;      
+    }
+    .box{
+      margin-top: 30px; 
+      margin-left: 20px;
+      background: transparent;
+      box-shadow: 5px 30px 56.1276px rgb(55 55 55/12%);
+      border-radius: 10px;
+      position: relative;
+      transition: all .35s ease;
+    }
+
+      .container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px, auto));
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+        cursor: pointer;
+        padding-top: 2rem;
+      }
+      .box:hover{
+        transform: translateY(-30px);
+      }
+
+       .navi {
+  overflow: hidden;
+  background-color: #adada4;
+  color: rgb(226, 226, 185) ;
+  font-size:60px ;
+  padding: 15px;
+  }
+  .navi a{
+  
+  
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10px;
+
+  }
+  
+  .navi a.split{
+  float: right;
+  color:rgb(27, 24, 24)
+  
+  }
+.navi a:hover{
+  color: rgb(234, 35, 147);
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.navi {
+  animation: animate 2s 1;
+}
+
+.btnn {
+  text-decoration: none;
+  padding: 10px 50px;
+  color: #262626;
+  background: #f7bc25;
+  
+}
+.btnn:hover {
+  background-color: #262626;
+  color: #fff;
+}
